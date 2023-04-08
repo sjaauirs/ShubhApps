@@ -1,0 +1,5 @@
+/ShubhApps/.vscode
+*.prettierrc
+*.editorconfig
+*.eslintignore
+*.prettierignore
