@@ -1,4 +1,4 @@
 module.exports = {
   name: 'shubappsshell',
-  remotes: ['customer-portal'],
+  remotes: ['customer-portal', 'portfolio'],
 };
