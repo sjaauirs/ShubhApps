@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@shubh-apps/auth": ["libs/auth/src/index.ts"],
-      "@shubh-apps/data-models": ["libs/data-models/src/index.ts"]
+      "@shubh-apps/data-models": ["libs/data-models/src/index.ts"],
+      "@shubh-apps/services": ["libs/services/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
