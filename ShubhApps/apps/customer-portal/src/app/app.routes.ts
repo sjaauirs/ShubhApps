@@ -6,4 +6,10 @@ export const appRoutes: Route[] = [
     loadChildren: () =>
       import('./remote-entry/entry.module').then((m) => m.RemoteEntryModule),
   },
+
+  {
+    path: 'auth',
+    loadChildren: () =>
+      import('@shubh-apps/auth').then((m) => m.AuthModule),
+  },
 ];
